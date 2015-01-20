@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="$itemname$" company="$registeredorganization$">
+// <copyright file="$itemname$.cs" company="$registeredorganization$">
 //     Copyright (c) $year$ $registeredorganization$. 
 //     All rights reserved.
 // </copyright>
@@ -13,7 +13,9 @@ namespace $rootnamespace$
 	$endif$using System.Text;
 	$if$ ($targetframeworkversion$ >= 4.5)using System.Threading.Tasks;
 	$endif$
-
+	/// <summary>
+    /// $safeitemrootname$ definition
+    /// </summary>
     public class $safeitemrootname$
     {
 		#region Member Variables
